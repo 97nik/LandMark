@@ -3,52 +3,58 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1134BCA026A358B600DB032D /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1134BC9F26A358B600DB032D /* APIService.swift */; };
+		1134BCA526A358D800DB032D /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 1134BCA426A358D800DB032D /* landmarkData.json */; };
+		1134BCAA26A3595200DB032D /* LandMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1134BCA926A3595200DB032D /* LandMark.swift */; };
 		11B2C32826A0940800F9CAD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B2C32726A0940800F9CAD2 /* AppDelegate.swift */; };
 		11B2C32A26A0940800F9CAD2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B2C32926A0940800F9CAD2 /* SceneDelegate.swift */; };
-		11B2C32C26A0940800F9CAD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B2C32B26A0940800F9CAD2 /* ViewController.swift */; };
 		11B2C32F26A0940800F9CAD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11B2C32D26A0940800F9CAD2 /* Main.storyboard */; };
 		11B2C33126A0940E00F9CAD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11B2C33026A0940E00F9CAD2 /* Assets.xcassets */; };
 		11B2C33426A0940E00F9CAD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11B2C33226A0940E00F9CAD2 /* LaunchScreen.storyboard */; };
-		11B2C33F26A0940E00F9CAD2 /* LandMarkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B2C33E26A0940E00F9CAD2 /* LandMarkTests.swift */; };
-		11B2C34A26A0940E00F9CAD2 /* LandMarkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B2C34926A0940E00F9CAD2 /* LandMarkUITests.swift */; };
+		11B2C36226A095F300F9CAD2 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B2C36126A095F300F9CAD2 /* ViewModel.swift */; };
+		11B2C36726A095FE00F9CAD2 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B2C36626A095FE00F9CAD2 /* DetailViewModel.swift */; };
+		11B2C37826A0962F00F9CAD2 /* TableViewViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B2C37726A0962F00F9CAD2 /* TableViewViewModelType.swift */; };
+		11B2C39426A096AA00F9CAD2 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B2C39326A096AA00F9CAD2 /* TableViewController.swift */; };
+		11B2C39C26A096B200F9CAD2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B2C39B26A096B200F9CAD2 /* DetailViewController.swift */; };
+		11B2C3A126A096BF00F9CAD2 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B2C3A026A096BF00F9CAD2 /* TableViewCell.swift */; };
+		11B2C3AA26A09A4700F9CAD2 /* TableViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B2C3A926A09A4700F9CAD2 /* TableViewModelType.swift */; };
+		11B2C3B226A09A6200F9CAD2 /* TableViewCellViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B2C3B126A09A6200F9CAD2 /* TableViewCellViewModelType.swift */; };
+		11B2C3B726A09AAC00F9CAD2 /* Assembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B2C3B626A09AAC00F9CAD2 /* Assembly.swift */; };
+		11B8988726A5B18D00CEFD76 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 11B8988626A5B18D00CEFD76 /* Realm */; };
+		11B8988926A5B18D00CEFD76 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 11B8988826A5B18D00CEFD76 /* RealmSwift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		11B2C33B26A0940E00F9CAD2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 11B2C31C26A0940800F9CAD2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 11B2C32326A0940800F9CAD2;
-			remoteInfo = LandMark;
-		};
-		11B2C34626A0940E00F9CAD2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 11B2C31C26A0940800F9CAD2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 11B2C32326A0940800F9CAD2;
-			remoteInfo = LandMark;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		1134BC9F26A358B600DB032D /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		1134BCA426A358D800DB032D /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = landmarkData.json; path = "../../Тестовое задание/landmarkData.json"; sourceTree = "<group>"; };
+		1134BCA926A3595200DB032D /* LandMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandMark.swift; sourceTree = "<group>"; };
+		1134BCE126A3690F00DB032D /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
 		11B2C32426A0940800F9CAD2 /* LandMark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LandMark.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11B2C32726A0940800F9CAD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11B2C32926A0940800F9CAD2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		11B2C32B26A0940800F9CAD2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		11B2C32E26A0940800F9CAD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		11B2C33026A0940E00F9CAD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11B2C33326A0940E00F9CAD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11B2C33526A0940E00F9CAD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		11B2C33A26A0940E00F9CAD2 /* LandMarkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandMarkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		11B2C33E26A0940E00F9CAD2 /* LandMarkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandMarkTests.swift; sourceTree = "<group>"; };
 		11B2C34026A0940E00F9CAD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		11B2C34526A0940E00F9CAD2 /* LandMarkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandMarkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		11B2C34926A0940E00F9CAD2 /* LandMarkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandMarkUITests.swift; sourceTree = "<group>"; };
 		11B2C34B26A0940E00F9CAD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11B2C36126A095F300F9CAD2 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		11B2C36626A095FE00F9CAD2 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		11B2C37726A0962F00F9CAD2 /* TableViewViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewViewModelType.swift; sourceTree = "<group>"; };
+		11B2C39326A096AA00F9CAD2 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		11B2C39B26A096B200F9CAD2 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		11B2C3A026A096BF00F9CAD2 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		11B2C3A926A09A4700F9CAD2 /* TableViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewModelType.swift; sourceTree = "<group>"; };
+		11B2C3B126A09A6200F9CAD2 /* TableViewCellViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellViewModelType.swift; sourceTree = "<group>"; };
+		11B2C3B626A09AAC00F9CAD2 /* Assembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assembly.swift; sourceTree = "<group>"; };
+		11DBB0F826A5D29600929698 /* landmarkData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		11DBB0F926A5D2AA00929698 /* landmarkData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = landmarkData.json; path = "../../../Тестовое задание/landmarkData.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,26 +62,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		11B2C33726A0940E00F9CAD2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		11B2C34226A0940E00F9CAD2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				11B8988926A5B18D00CEFD76 /* RealmSwift in Frameworks */,
+				11B8988726A5B18D00CEFD76 /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1134BCDB26A3683E00DB032D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1134BCE126A3690F00DB032D /* SnapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		11B2C31B26A0940800F9CAD2 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +85,7 @@
 				11B2C33D26A0940E00F9CAD2 /* LandMarkTests */,
 				11B2C34826A0940E00F9CAD2 /* LandMarkUITests */,
 				11B2C32526A0940800F9CAD2 /* Products */,
+				1134BCDB26A3683E00DB032D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,8 +93,6 @@
 			isa = PBXGroup;
 			children = (
 				11B2C32426A0940800F9CAD2 /* LandMark.app */,
-				11B2C33A26A0940E00F9CAD2 /* LandMarkTests.xctest */,
-				11B2C34526A0940E00F9CAD2 /* LandMarkUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,13 +100,15 @@
 		11B2C32626A0940800F9CAD2 /* LandMark */ = {
 			isa = PBXGroup;
 			children = (
-				11B2C32726A0940800F9CAD2 /* AppDelegate.swift */,
-				11B2C32926A0940800F9CAD2 /* SceneDelegate.swift */,
-				11B2C32B26A0940800F9CAD2 /* ViewController.swift */,
-				11B2C32D26A0940800F9CAD2 /* Main.storyboard */,
-				11B2C33026A0940E00F9CAD2 /* Assets.xcassets */,
-				11B2C33226A0940E00F9CAD2 /* LaunchScreen.storyboard */,
-				11B2C33526A0940E00F9CAD2 /* Info.plist */,
+				11DBB0FA26A5D2E800929698 /* Storyboard */,
+				11DBB0F626A5D28E00929698 /* SupportingFiles */,
+				1134BCA426A358D800DB032D /* landmarkData.json */,
+				11DBB0F226A5CECA00929698 /* Managers */,
+				11B2C37026A0961400F9CAD2 /* ViewModel */,
+				11B2C38C26A0965A00F9CAD2 /* Protocols */,
+				11B2C39226A0969400F9CAD2 /* Model */,
+				11B2C3A526A096D000F9CAD2 /* View */,
+				11DBB0F526A5D27700929698 /* Sources */,
 			);
 			path = LandMark;
 			sourceTree = "<group>";
@@ -128,6 +131,81 @@
 			path = LandMarkUITests;
 			sourceTree = "<group>";
 		};
+		11B2C37026A0961400F9CAD2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				11B2C36126A095F300F9CAD2 /* ViewModel.swift */,
+				11B2C36626A095FE00F9CAD2 /* DetailViewModel.swift */,
+				11B2C37726A0962F00F9CAD2 /* TableViewViewModelType.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		11B2C38C26A0965A00F9CAD2 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				11B2C3A926A09A4700F9CAD2 /* TableViewModelType.swift */,
+				11B2C3B126A09A6200F9CAD2 /* TableViewCellViewModelType.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		11B2C39226A0969400F9CAD2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1134BCA926A3595200DB032D /* LandMark.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		11B2C3A526A096D000F9CAD2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				11B2C39326A096AA00F9CAD2 /* TableViewController.swift */,
+				11B2C3A026A096BF00F9CAD2 /* TableViewCell.swift */,
+				11B2C39B26A096B200F9CAD2 /* DetailViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		11DBB0F226A5CECA00929698 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				1134BC9F26A358B600DB032D /* APIService.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		11DBB0F526A5D27700929698 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				11B2C33026A0940E00F9CAD2 /* Assets.xcassets */,
+				11DBB0F926A5D2AA00929698 /* landmarkData.json */,
+				11DBB0F826A5D29600929698 /* landmarkData.json */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		11DBB0F626A5D28E00929698 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				11B2C3B626A09AAC00F9CAD2 /* Assembly.swift */,
+				11B2C32726A0940800F9CAD2 /* AppDelegate.swift */,
+				11B2C32926A0940800F9CAD2 /* SceneDelegate.swift */,
+				11B2C33526A0940E00F9CAD2 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		11DBB0FA26A5D2E800929698 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				11B2C32D26A0940800F9CAD2 /* Main.storyboard */,
+				11B2C33226A0940E00F9CAD2 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,51 +216,20 @@
 				11B2C32026A0940800F9CAD2 /* Sources */,
 				11B2C32126A0940800F9CAD2 /* Frameworks */,
 				11B2C32226A0940800F9CAD2 /* Resources */,
+				1134BCEB26A36B5900DB032D /* Run Script */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = LandMark;
+			packageProductDependencies = (
+				11B8988626A5B18D00CEFD76 /* Realm */,
+				11B8988826A5B18D00CEFD76 /* RealmSwift */,
+			);
 			productName = LandMark;
 			productReference = 11B2C32426A0940800F9CAD2 /* LandMark.app */;
 			productType = "com.apple.product-type.application";
-		};
-		11B2C33926A0940E00F9CAD2 /* LandMarkTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 11B2C35126A0940E00F9CAD2 /* Build configuration list for PBXNativeTarget "LandMarkTests" */;
-			buildPhases = (
-				11B2C33626A0940E00F9CAD2 /* Sources */,
-				11B2C33726A0940E00F9CAD2 /* Frameworks */,
-				11B2C33826A0940E00F9CAD2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				11B2C33C26A0940E00F9CAD2 /* PBXTargetDependency */,
-			);
-			name = LandMarkTests;
-			productName = LandMarkTests;
-			productReference = 11B2C33A26A0940E00F9CAD2 /* LandMarkTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		11B2C34426A0940E00F9CAD2 /* LandMarkUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 11B2C35426A0940E00F9CAD2 /* Build configuration list for PBXNativeTarget "LandMarkUITests" */;
-			buildPhases = (
-				11B2C34126A0940E00F9CAD2 /* Sources */,
-				11B2C34226A0940E00F9CAD2 /* Frameworks */,
-				11B2C34326A0940E00F9CAD2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				11B2C34726A0940E00F9CAD2 /* PBXTargetDependency */,
-			);
-			name = LandMarkUITests;
-			productName = LandMarkUITests;
-			productReference = 11B2C34526A0940E00F9CAD2 /* LandMarkUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -196,14 +243,6 @@
 					11B2C32326A0940800F9CAD2 = {
 						CreatedOnToolsVersion = 12.4;
 					};
-					11B2C33926A0940E00F9CAD2 = {
-						CreatedOnToolsVersion = 12.4;
-						TestTargetID = 11B2C32326A0940800F9CAD2;
-					};
-					11B2C34426A0940E00F9CAD2 = {
-						CreatedOnToolsVersion = 12.4;
-						TestTargetID = 11B2C32326A0940800F9CAD2;
-					};
 				};
 			};
 			buildConfigurationList = 11B2C31F26A0940800F9CAD2 /* Build configuration list for PBXProject "LandMark" */;
@@ -215,13 +254,14 @@
 				Base,
 			);
 			mainGroup = 11B2C31B26A0940800F9CAD2;
+			packageReferences = (
+				11B8988526A5B18C00CEFD76 /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+			);
 			productRefGroup = 11B2C32526A0940800F9CAD2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				11B2C32326A0940800F9CAD2 /* LandMark */,
-				11B2C33926A0940E00F9CAD2 /* LandMarkTests */,
-				11B2C34426A0940E00F9CAD2 /* LandMarkUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -232,68 +272,58 @@
 			buildActionMask = 2147483647;
 			files = (
 				11B2C33426A0940E00F9CAD2 /* LaunchScreen.storyboard in Resources */,
+				1134BCA526A358D800DB032D /* landmarkData.json in Resources */,
 				11B2C33126A0940E00F9CAD2 /* Assets.xcassets in Resources */,
 				11B2C32F26A0940800F9CAD2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		11B2C33826A0940E00F9CAD2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		11B2C34326A0940E00F9CAD2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1134BCEB26A36B5900DB032D /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/SnapKit.framework",
+			);
+			name = "Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		11B2C32026A0940800F9CAD2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11B2C32C26A0940800F9CAD2 /* ViewController.swift in Sources */,
+				11B2C3A126A096BF00F9CAD2 /* TableViewCell.swift in Sources */,
+				11B2C3AA26A09A4700F9CAD2 /* TableViewModelType.swift in Sources */,
+				11B2C3B226A09A6200F9CAD2 /* TableViewCellViewModelType.swift in Sources */,
+				11B2C39C26A096B200F9CAD2 /* DetailViewController.swift in Sources */,
+				1134BCAA26A3595200DB032D /* LandMark.swift in Sources */,
 				11B2C32826A0940800F9CAD2 /* AppDelegate.swift in Sources */,
+				11B2C36226A095F300F9CAD2 /* ViewModel.swift in Sources */,
+				1134BCA026A358B600DB032D /* APIService.swift in Sources */,
+				11B2C3B726A09AAC00F9CAD2 /* Assembly.swift in Sources */,
+				11B2C36726A095FE00F9CAD2 /* DetailViewModel.swift in Sources */,
+				11B2C39426A096AA00F9CAD2 /* TableViewController.swift in Sources */,
+				11B2C37826A0962F00F9CAD2 /* TableViewViewModelType.swift in Sources */,
 				11B2C32A26A0940800F9CAD2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		11B2C33626A0940E00F9CAD2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				11B2C33F26A0940E00F9CAD2 /* LandMarkTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		11B2C34126A0940E00F9CAD2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				11B2C34A26A0940E00F9CAD2 /* LandMarkUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		11B2C33C26A0940E00F9CAD2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 11B2C32326A0940800F9CAD2 /* LandMark */;
-			targetProxy = 11B2C33B26A0940E00F9CAD2 /* PBXContainerItemProxy */;
-		};
-		11B2C34726A0940E00F9CAD2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 11B2C32326A0940800F9CAD2 /* LandMark */;
-			targetProxy = 11B2C34626A0940E00F9CAD2 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		11B2C32D26A0940800F9CAD2 /* Main.storyboard */ = {
@@ -438,7 +468,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 95ZUNS462R;
-				INFOPLIST_FILE = LandMark/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = LandMark/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,7 +491,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 95ZUNS462R;
-				INFOPLIST_FILE = LandMark/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = LandMark/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,90 +504,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		11B2C35226A0940E00F9CAD2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 95ZUNS462R;
-				INFOPLIST_FILE = LandMarkTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = Nikita.LandMarkTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LandMark.app/LandMark";
-			};
-			name = Debug;
-		};
-		11B2C35326A0940E00F9CAD2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 95ZUNS462R;
-				INFOPLIST_FILE = LandMarkTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = Nikita.LandMarkTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LandMark.app/LandMark";
-			};
-			name = Release;
-		};
-		11B2C35526A0940E00F9CAD2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 95ZUNS462R;
-				INFOPLIST_FILE = LandMarkUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = Nikita.LandMarkUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = LandMark;
-			};
-			name = Debug;
-		};
-		11B2C35626A0940E00F9CAD2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 95ZUNS462R;
-				INFOPLIST_FILE = LandMarkUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = Nikita.LandMarkUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = LandMark;
 			};
 			name = Release;
 		};
@@ -574,25 +528,31 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		11B2C35126A0940E00F9CAD2 /* Build configuration list for PBXNativeTarget "LandMarkTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				11B2C35226A0940E00F9CAD2 /* Debug */,
-				11B2C35326A0940E00F9CAD2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		11B2C35426A0940E00F9CAD2 /* Build configuration list for PBXNativeTarget "LandMarkUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				11B2C35526A0940E00F9CAD2 /* Debug */,
-				11B2C35626A0940E00F9CAD2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		11B8988526A5B18C00CEFD76 /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-cocoa";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.10.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		11B8988626A5B18D00CEFD76 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 11B8988526A5B18C00CEFD76 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = Realm;
+		};
+		11B8988826A5B18D00CEFD76 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 11B8988526A5B18C00CEFD76 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 11B2C31C26A0940800F9CAD2 /* Project object */;
 }
